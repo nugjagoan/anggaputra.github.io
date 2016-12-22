@@ -260,10 +260,9 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .faq-section{
-  margin-top: 5em;
   margin-bottom: 5em;
-  padding-top: 5em;
-  border-top: 1px solid #eee;
+  padding-bottom: 5em;
+  border-bottom: 1px solid #eee;
 }
 
 .panel-title a{
@@ -318,9 +317,8 @@ h1,h2,h3,h4,h5,h6{
   }
 
   .faq-section {
-      margin-top: 2em;
       margin-bottom: 1em;
-      padding-top: 1em;
+      padding-bottom: 1em;
   }
 
 
@@ -354,9 +352,8 @@ h1,h2,h3,h4,h5,h6{
   }
 
   .faq-section {
-      margin-top: 2em;
       margin-bottom: 1em;
-      padding-top: 1em;
+      padding-bottom: 1em;
   }
 
  
@@ -393,9 +390,8 @@ h1,h2,h3,h4,h5,h6{
   }
 
   .faq-section {
-      margin-top: 2em;
       margin-bottom: 1em;
-      padding-top: 1em;
+      padding-bottom: 1em;
   }
 
   
@@ -419,9 +415,8 @@ h1,h2,h3,h4,h5,h6{
   }
   
   .faq-section {
-      margin-top: 2em;
       margin-bottom: 1em;
-      padding-top: 1em;
+      padding-bottom: 1em;
   }
  
 }
@@ -432,9 +427,8 @@ h1,h2,h3,h4,h5,h6{
     }
 
     .faq-section {
-      margin-top: 2em;
       margin-bottom: 1em;
-      padding-top: 1em;
+      padding-bottom: 1em;
   }
 }
 
