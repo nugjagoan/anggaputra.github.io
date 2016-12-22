@@ -1,0 +1,407 @@
+/* Finansia */
+
+body{
+  font-family: 'Jaldi', sans-serif;
+}
+
+p{
+  color: #6f6f6f;
+  line-height: 1.4em;
+  font-size: 1.3em;
+}
+
+p strong{
+  color: #333;
+  line-height: 1.7em;
+}
+
+h1,h2,h3,h4,h5,h6{
+    line-height: 1.5em;
+    font-family: 'Montserrat', 'Arimo', sans-serif!important;
+}
+
+.big-bg{
+   background: url("../images/big-hero-image.jpg") center -300px no-repeat;
+}
+
+.hero-image{
+  background: url("../images/big-hero-image.jpg") center -500px no-repeat;
+  background-color: #000;
+  padding: 80px 0;
+  margin-bottom: 4em;
+
+}
+
+.big-banner{
+    border-bottom: 1px solid #eee;
+    margin-bottom: 6em;
+    background: url("../images/header-bg.jpg") -400px 0 no-repeat;
+    height: 500px;
+
+}
+
+.img-hero{
+    width: 450px;
+    float: right;
+}
+
+.page-content .col-md-6 > p{
+  margin-top: 30px;
+  font-size: 1.3em!important;
+}
+
+.page-content h1{
+  font-weight: bold;
+  line-height: 1.3em;
+  color: #FFF;
+  margin-top: 4.5em;
+  font-size: 3em;
+}
+
+
+.navbar-default {
+    background-color: #FFF;
+    padding: 0px 0;
+    border-radius: 0;
+}
+
+
+.nav{
+  margin-top: 5px;
+}
+
+.navbar-default .navbar-nav>li>a {
+    font-size: 1.2em;
+}
+
+
+.logo img{
+  width: 150px;
+}
+
+.cta-client{
+  font-size: 2.5em;
+  cursor: pointer;
+}
+
+.steps-box{
+    display: inline-block;
+    height: 200px;
+    border-radius: 12px;
+}
+ 
+.shadow-animate{
+    box-shadow: 0 0px 0px rgba(0,0,0,0.15);
+    position: relative;
+    border-radius: 12px;
+    -webkit-transform: translateY(0);
+    -webkit-transition: all 1s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 1s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.shadow-animate:after {
+    content: "";
+    border-radius: 12px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 5px 30px rgba(0,0,0,0.2);
+    opacity: 0;
+    -webkit-transition: all .6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all .6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.shadow-animate:hover::after {
+  opacity: 1;
+}
+
+.steps-box>p{
+ display: none;
+ color: #13a1bd;
+  font-weight: bold;
+  font-size: 1.4em;
+}
+
+.steps-box:hover.steps-box>img{
+  display: none!important;
+}
+
+.steps-box:hover.steps-box>p{
+  display: block!important;
+  text-align: center;
+  display: block;
+  float: left;
+  width: 100%;
+}
+
+
+.available-cat{
+  margin-top: 50px;
+  padding-top: 5em;
+  padding-bottom: 5em;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  background: #f3fdff;
+}
+
+.cat-box{
+    float: left;
+    width: 20%;
+    border: 1px solid #33d1ea;
+    padding: 10px;
+    margin: 0 25px 20px;
+    border-radius: 4px;
+    color: #2aa7bb;
+    background: #FFF;
+}
+
+.cat-box:hover{
+  box-shadow: 0 2px 14px #ccc;
+  border:1px solid #fff;
+}
+
+.list-cat u{
+  text-decoration: none!important;
+  border-bottom: 1px solid #d6d6d6;
+  padding-bottom: 2px;
+  font-size: 1.5em;
+  color: #fff;
+}
+
+#footer .links {
+    display: inline-block;
+    width: 100%;
+    margin: 20px 0;
+}
+
+#footer .links ul {
+    display: inline-block;
+    float: left;
+    font-size: 13px;
+    line-height: 1em;
+    margin: 0 0 20px 0;
+    vertical-align: top;
+    width: 20%;
+    list-style: none;
+
+}
+
+#footer .links ul li {
+    margin: 0 0 10px;
+}
+
+#footer h3 {
+    color: #2aa7bb;
+    font-size: 1.2em;
+}
+
+#footer .links ul li a {
+    color: #969EA2;
+}
+
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+.box-form{
+    padding: 20px;
+    border: 1px solid #eee;
+}
+
+.sign-form{
+  padding: 20px 50px;
+  border: 1px solid #eee;
+  background: #FFF;
+  border-radius: 4px;
+
+}
+
+.sign-form h3{
+  margin-bottom: 5px; 
+}
+
+.sign-form p{
+  font-size: 1.3em;
+  line-height: 1.4em;
+}
+
+.start-consult{
+    color: #419bf9;
+}
+
+.join-consult{
+      color: #5cb85e;
+}
+
+.faq-section{
+  margin-top: 5em;
+  margin-bottom: 5em;
+  padding-top: 5em;
+  border-top: 1px solid #eee;
+}
+
+.panel-title a{
+  width: 100%;
+  display: block;
+}
+
+.panel-default>.panel-heading{
+  background-color: #FFF;
+}
+
+.panel-default>.panel-heading+.panel-collapse>.panel-body{
+  background: #f3fdff;
+}
+
+
+@media screen and (max-width: 480px){
+  #footer .links ul {
+      float: none;
+      margin-right: 0;
+      width: 100%;
+  }
+
+  .big-banner {
+    border-bottom: 1px solid #eee;
+    margin-bottom: 2em;
+  }
+
+  .available-cat{
+    margin-top: 30px;
+    padding-top: 2em;
+    margin-bottom: 15px;
+    padding-bottom: 2em;
+  }
+
+  .big-banner {
+    border-bottom: 1px solid #eee;
+    margin-bottom: 2em;
+    height: 280px;
+  }
+
+  .page-content h1 {
+    margin-top: 4.5em;
+    font-size: 1.5em;
+  }
+
+  .faq-section {
+      margin-top: 2em;
+      margin-bottom: 1em;
+      padding-top: 1em;
+  }
+
+
+
+
+}
+@media screen and (max-width: 750px){
+  .available-cat{
+    margin-top: 30px;
+    padding-top: 2em;
+    margin-bottom: 0px;
+    padding-bottom: 2em;
+  }
+
+  .big-banner {
+    border-bottom: 1px solid #eee;
+    margin-bottom: 2em;
+    height: 280px;
+  }
+
+  .page-content h1 {
+    margin-top: 4.5em;
+    font-size: 1.5em;
+  }
+
+  .faq-section {
+      margin-top: 2em;
+      margin-bottom: 1em;
+      padding-top: 1em;
+  }
+
+ 
+}
+@media (max-width: 767px){
+    
+    .cat-box{
+      float: left;
+      width: 46%;
+      margin: 5px;
+    }
+
+    .cat-box h4{
+       font-size: 12px!important;
+    }
+
+  
+  .big-banner {
+    border-bottom: 1px solid #eee;
+    margin-bottom: 2em;
+    height: 280px;
+  }
+
+  .page-content h1 {
+    margin-top: 4.5em;
+    font-size: 1.5em;
+  }
+
+  .faq-section {
+      margin-top: 2em;
+      margin-bottom: 1em;
+      padding-top: 1em;
+  }
+
+  
+}
+@media screen and (max-width: 825px){
+  .big-banner {
+    border-bottom: 1px solid #eee;
+    margin-bottom: 2em;
+    height: 280px;
+  }
+
+  .page-content h1 {
+    margin-top: 4.5em;
+    font-size: 1.5em;
+  }
+  
+  .faq-section {
+      margin-top: 2em;
+      margin-bottom: 1em;
+      padding-top: 1em;
+  }
+ 
+}
+
+@media (max-width: 991px) and (min-width: 768px){
+    .cat-box{
+          width: 26%;
+    }
+
+    .faq-section {
+      margin-top: 2em;
+      margin-bottom: 1em;
+      padding-top: 1em;
+  }
+}
+
