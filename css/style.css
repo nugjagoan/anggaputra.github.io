@@ -92,7 +92,6 @@ h1,h2,h3,h4,h5,h6 {
   margin-top: 0px;
 }
 .sub-title {
-  color: #97a0af;
   margin-bottom: 20px;
   font-size: 1.2em;
 }
@@ -107,11 +106,6 @@ h1,h2,h3,h4,h5,h6 {
   background-size: cover;
   background-attachment: fixed;
 }
-h1.hero-text{
-  font-weight: 800;
-  font-size: 4em;
-}
-
 .mt-5{
   margin-top: 5px;
 }
@@ -182,6 +176,16 @@ h1.hero-text{
   color: #070707 !important;
   font-weight: 700;
   font-size: 1.4em;
+}
+.btn-login {
+  background-color: #62C697 !important;
+  border: 1px solid #62C697 !important;
+  color: #FFF !important;
+  padding: 10px 35px !important;
+  margin: 15px 20px !important;
+  -webkit-box-shadow: 0px 10px 76px -16px rgba(0,0,0,0.55);
+-moz-box-shadow: 0px 10px 76px -16px rgba(0,0,0,0.55);
+box-shadow: 0px 10px 76px -16px rgba(0,0,0,0.55);
 }
 .btn-purple {
   font-weight: 700;
@@ -450,13 +454,10 @@ color: #FFF !important;
   color: #374760;
   font-size: 15px;
   font-weight: 600;
-  background-color: transparent !important;
+  margin-top: 8px;
 }
 .navbar-custom .navbar-nav li a:hover,.navbar-custom .navbar-nav li a:focus,.navbar-custom .navbar-nav li a:active {
   color: #374760;
-}
-.navbar-custom .nav>li>a:focus,.navbar-custom .nav>li>a:hover {
-  background-color: #374760;
 }
 .logo {
   width: 200px;
@@ -482,13 +483,18 @@ color: #FFF !important;
   position: relative;
 }
 .home-wrapper {
-  padding: 100px 0px 150px 0px;
+  padding: 90px 0px 150px 0px;
 }
 .home-wrapper p {
   line-height: 24px;
   margin-top: 0px;
   margin-bottom: 50px;
-  font-size: 1.5em;
+  font-size: 1.3em;
+}
+
+h1.hero-text{
+  font-weight: 800;
+  font-size: 3em;
 }
 
 .cat_icons{
@@ -571,6 +577,10 @@ color: #FFF !important;
   margin-left: 20px;
 }
 
+#how-it-work h2{
+  margin-top: 40px;
+}
+
 #how-it-work .big-ss{
   position: relative;
   left: -250px;
@@ -582,6 +592,7 @@ color: #FFF !important;
     width: 40px;
     position: relative;
     top: -160px;
+    left: 20px;
 }
 
 .steps-box{
@@ -657,6 +668,7 @@ color: #FFF !important;
 
 #faq{
   background: url('../images/footer-bg.png') no-repeat;
+  margin-top: 30px;
 }
 
 /*======= FOOTER ======*/
