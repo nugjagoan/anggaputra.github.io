@@ -112,6 +112,10 @@ h1.hero-text{
   font-size: 4em;
 }
 
+.mt-5{
+  margin-top: 5px;
+}
+
 /*======= Buttons ======= */
 .btn {
   border-radius: 2px;
@@ -496,6 +500,13 @@ color: #FFF !important;
 .cat_icons li{
   float: left;
   margin:0 10px;
+  text-align: center;
+
+}
+
+.cat_icons li a{
+  color: #000;
+  font-weight: 600;
 }
 
 .cat_icons li img{
