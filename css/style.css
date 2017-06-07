@@ -70,7 +70,7 @@ h1,h2,h3,h4,h5,h6 {
   background: url("../images/bg1.jpg");
 }
 .bg-img-3 {
-  background: url("../images/bg3.png") no-repeat;
+  background: url("../images/bg3.png") center no-repeat;
 }
 .page-sub-title {
   margin: 10px 0px !important;
@@ -540,7 +540,6 @@ h1.hero-text{
 }
 
 .share-expert-wrapper h2 {
-  line-height: 24px;
   margin-top: 0px;
   margin-bottom: 50px;
   font-size: 2.5em;
@@ -686,25 +685,171 @@ h1.hero-text{
 
 
 /*======= Responsive ======*/
-@media (min-width: 768px) {
-  .navbar-nav>li>a {
-    padding-top: 18px;
-    padding-bottom: 18px;
+@media (max-width: 450px) {
+  .home-wrapper {
+    padding: 10px 0px 150px 0px;
+    text-align: left !important;
   }
+  h1.hero-text {
+    font-size: 2em;
+  }
+  .home-wrapper p {
+    margin-bottom: 30px;
+  }
+  .cat_icons {
+    list-style: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    float: left;
+  }
+  .cat_icons li {
+    float: left;
+    margin: 10px 20px;
+    text-align: center;
+  }
+  .share-expert {
+    margin-top: 0px;
+    height: 400px;
+  }
+  .share-expert-wrapper {
+    padding: 150px 0px 150px 0px;
+  }
+  .share-expert-wrapper p {
+      font-size: 1.2em;
+  }
+  .share-expert-wrapper h2 {
+      margin-top: 0px;
+      font-size: 2em;
+      margin-bottom: 25px;
+      color: #fff;
+      font-weight: 700;
+  }
+  .sign-on{
+    display: none;
+  }
+  #how-it-work {
+    padding-top: 30px !important;
+    padding-bottom: 0px !important;
+  }
+
+  #how-it-work .big-ss {
+      position: relative;
+      left: 0;
+      width: 100%;
+  }
+  #how-it-work .content {
+      margin-left: 0px;
+      text-align: center;
+  }
+  #how-it-work h2 {
+      margin-top: 55px;
+      font-size: 1.5em;
+      display: none;
+  }
+  #how-it-work p.sub-title {
+      margin-top: 45px;
+  }
+  #faq {
+    background: url(../images/footer-bg.png) -300px 150px no-repeat;
+    background-color: #fafafa;
+    border-top: 1px solid #f5f5f5;
+    padding-top: 50px;
+  }
+  #faq .title{
+    font-size: 2em;
+  }
+
 }
 
+
+
 @media (max-width: 768px) {
-  .logo {
-    margin-top: 7px;
+ .home-wrapper {
+    padding: 10px 0px 150px 0px;
+    text-align: left !important;
   }
-  .screen-space {
-    margin: 0px auto 50px auto;
+  h1.hero-text {
+    font-size: 2em;
   }
-  .facts {
-    margin-top: 20px;
-    margin-bottom: 20px;
+  .home-wrapper p {
+    margin-bottom: 30px;
   }
-  .feature-detail {
-    padding: 0px 0px 50px 30px !important;
+  .cat_icons {
+    list-style: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    float: left;
   }
+  .cat_icons li {
+    float: left;
+    margin: 10px 20px;
+    text-align: center;
+  }
+  .share-expert {
+    margin-top: 0px;
+    height: 400px;
+  }
+  .share-expert-wrapper {
+    padding: 150px 0px 150px 0px;
+  }
+  .share-expert-wrapper p {
+      font-size: 1.2em;
+  }
+  .share-expert-wrapper h2 {
+      margin-top: 0px;
+      font-size: 2em;
+      margin-bottom: 25px;
+      color: #fff;
+      font-weight: 700;
+  }
+  .sign-on{
+    display: none;
+  }
+  #how-it-work {
+    padding-top: 30px !important;
+    padding-bottom: 0px !important;
+  }
+
+  #how-it-work .big-ss {
+      position: relative;
+      left: 0 !important;
+      width: 100%;
+  }
+  #how-it-work .content {
+      margin-left: 0px;
+      text-align: center;
+  }
+  #how-it-work h2 {
+      margin-top: 55px;
+      font-size: 1.5em;
+      display: none;
+  }
+  #how-it-work p.sub-title {
+      margin-top: 45px;
+  }
+  #faq {
+    background: url(../images/footer-bg.png) -300px 150px no-repeat;
+    background-color: #fafafa;
+    border-top: 1px solid #f5f5f5;
+    padding-top: 50px;
+  }
+  #faq .title{
+    font-size: 2em;
+  }
+
+}
+
+@media (max-width: 1024px) {
+  .arrow-sign{
+  }
+  .big-mac{
+    left: -330px !important;
+  }
+  #faq {
+    background: url(../images/footer-bg.png) -300px 50px no-repeat;
+    margin-top: 30px;
+  }
+
 }
