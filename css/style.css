@@ -533,10 +533,9 @@ h1.hero-text{
 .share-expert-wrapper p {
   line-height: 24px;
   margin-top: 0px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   font-size: 1.5em;
   color: #fff;
-  font-weight: 100;
 }
 
 .share-expert-wrapper h2 {
@@ -788,11 +787,11 @@ h1.hero-text{
     text-align: center;
   }
   .share-expert {
-    margin-top: 0px;
+    margin-top: 50px;
     height: 400px;
   }
   .share-expert-wrapper {
-    padding: 150px 0px 150px 0px;
+    padding: 125px 0px 150px 0px;
   }
   .share-expert-wrapper p {
       font-size: 1.2em;
