@@ -596,65 +596,6 @@ h1.hero-text{
     left: 20px;
 }
 
-.steps-box{
-    display: inline-block;
-    height: 200px;
-    border-radius: 12px;
-}
- 
-.shadow-animate{
-    box-shadow: 0 0px 0px rgba(0,0,0,0.15);
-    position: relative;
-    border-radius: 12px;
-    -webkit-transform: translateY(0);
-    -webkit-transition: all 1s cubic-bezier(0.165, 0.84, 0.44, 1);
-    transition: all 1s cubic-bezier(0.165, 0.84, 0.44, 1);
-}
-
-.shadow-animate:after {
-    content: "";
-    border-radius: 12px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    box-shadow: 0 5px 30px rgba(0,0,0,0.2);
-    opacity: 0;
-    -webkit-transition: all .6s cubic-bezier(0.165, 0.84, 0.44, 1);
-    transition: all .6s cubic-bezier(0.165, 0.84, 0.44, 1);
-}
-
-.shadow-animate:hover::after {
-  opacity: 1;
-}
-
-.steps-box:hover{
-  cursor: pointer;
-}
-
-.steps-box>p{
- display: none;
- color: #13a1bd;
-  font-weight: bold;
-  font-size: 1.2em;
-  margin-top: 3em;
-}
-
-.steps-box:hover.steps-box>img{
-  display: none!important;
-}
-
-.steps-box:hover.steps-box>p{
-  display: block!important;
-  text-align: center;
-  display: block;
-  float: left;
-  width: 100%;
-}
-
-
-
 
 /*======= FAQ ======*/
 .question {
