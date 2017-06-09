@@ -491,6 +491,11 @@ color: #FFF !important;
   border-color: #337ab7;
 }
 
+.nav>li>a:focus, .nav>li>a:hover {
+    text-decoration: none;
+    background-color: transparent !important;
+}
+
 
 
 /*======= Home =======*/
